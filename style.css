@@ -1,0 +1,68 @@
+@font-face {
+    font-family: custom-font;
+    src: url(/assets/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* background-color: black; */
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    background-image: url(/assets/nicola-pavan-9IZwARETOMQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sidebar {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+img {
+    height: 85%;
+}
+
+span {
+    font-family: custom-font, sans-serif;
+    color: white;
+    font-size: 6rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.credit {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+
+a {
+    color: white;
+}
+
+/* div {
+    border: 5px solid black;
+} */
