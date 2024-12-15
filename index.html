@@ -14,11 +14,56 @@
                 <span>ODIN</span>
             </div>
             <div class="credit">
-                Photo by <a href="https://unsplash.com/@pavan_nicola?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicola Pavan</a> on <a href="https://unsplash.com/photos/green-grass-field-and-mountain-under-starry-night-9IZwARETOMQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                Photo by <a href="https://unsplash.com/@pavan_nicola?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Nicola Pavan</a> on <a href="https://unsplash.com/photos/green-grass-field-and-mountain-under-starry-night-9IZwARETOMQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Unsplash</a>
             </div>
         </div>
         <div class="right">
-            
+
+            <div class="upper">
+                This is not a real online service! You know you need something <br>like this in your life to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started. <br><br>You <em>know</em> you want to.
+            </div>
+
+            <form action="https://httpbin.org/post" method="post">
+                <section>
+                    <div class="heading">
+                        Let's do this!
+                    </div>
+                    <div class="container">
+                        <div>
+                            <div class="element">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="element">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="element pass">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" pattern="pass" required>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="element">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                            <div class="element">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input type="tel" id="phone-number" name="phone-number">    
+                            </div>
+                            <div class="element pass">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm-password" name="confirm-password" pattern="pass" required>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <button type="submit">Create Account</button>
+                <div class="already">
+                    Already have an account? <a href="" id="login">Log in</a>
+                </div>
+            </form>
         </div>
     </main>
 </body>

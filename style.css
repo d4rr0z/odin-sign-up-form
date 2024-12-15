@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0;
-    /* background-color: black; */
+    background-color: black;
 }
 
 main {
@@ -42,7 +42,7 @@ img {
 }
 
 span {
-    font-family: custom-font, sans-serif;
+    font-family: custom-font, Arial, Helvetica, sans-serif;
     color: white;
     font-size: 6rem;
 }
@@ -51,6 +51,8 @@ span {
     display: flex;
     flex-direction: column;
     width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
 }
 
 .credit {
@@ -63,6 +65,81 @@ a {
     color: white;
 }
 
-/* div {
-    border: 5px solid black;
-} */
+#login {
+    color: rgb(30, 80, 170);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.upper {
+    height: 35%;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 30px 40px;
+    align-content: end;
+}
+
+.already {
+    margin-left: 40px;
+}
+
+button {
+    margin: 30px 40px;
+    padding: 15px 45px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(30, 80, 170);
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+}
+
+form {
+    height: 65%;
+}
+
+section {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    background-color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.element {
+    margin: 20px 40px;
+}
+
+input {
+    display: block;
+    width: 225px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1.5px solid #E5E7EB;
+    outline: none;
+}
+
+input:focus {
+    border-color: rgb(30, 80, 170);
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+.pass input:invalid {
+    border-color: rgb(235, 30, 30);
+}
+
+label {
+    font-size: 0.75rem;
+}
