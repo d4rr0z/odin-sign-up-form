@@ -103,6 +103,7 @@ form {
 section {
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    height: 280px;
 }
 
 .heading {
@@ -115,7 +116,6 @@ section {
 
 .container {
     display: flex;
-    padding-bottom: 15px;
 }
 
 .element {
@@ -142,4 +142,18 @@ input:focus {
 
 label {
     font-size: 0.75rem;
+}
+
+button:hover {
+    filter: brightness(130%);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input:invalid + #message::after {
+    content: "* Passwords do not match";
+    color: rgb(235, 30, 30);
+    font-size: 0.7rem;
 }
