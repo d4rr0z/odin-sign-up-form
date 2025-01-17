@@ -1,6 +1,6 @@
 @font-face {
     font-family: custom-font;
-    src: url(/assets/Norse-Bold.otf);
+    src: url(./assets/Norse-Bold.otf);
 }
 
 body {
@@ -21,7 +21,7 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 400px;
-    background-image: url(/assets/nicola-pavan-9IZwARETOMQ-unsplash.jpg);
+    background-image: url(./assets/nicola-pavan-9IZwARETOMQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
